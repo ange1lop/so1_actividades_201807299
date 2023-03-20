@@ -1,0 +1,7 @@
+[Unit]
+Description=Saludo y fecha actual
+[Service]
+Type=simple
+ExecStart=/home/angel/Escritorio/proyectosopes/hojasMagistral/so1_actividades_201807299/actividad4/saludo.sh
+[Install]
+WantedBy=multi-user.target
